@@ -27,3 +27,14 @@ Router(config-if)#ip address 10.0.0.1 255.0.0.0
 Router(config-if)#no shut
 
 
+------------------------------------------------
+RIP Config
+
+Router(config)#router rip
+Router(config-router)#version 2
+Router(config-router)#network 10.10.10.0
+Router(config-router)#network 30.30.30.0
+Router(config-router)#no auto-summary
+Router(config-router)#exit
+
+
