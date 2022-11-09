@@ -1,0 +1,29 @@
+Router>en
+
+Router>enable
+
+Router#config t
+
+Router#config terminal
+
+Enter configuration commands, one per line. End with CNTL/Z.
+
+----------------CSE
+
+Router(config)#int f0/0
+
+Router(config-if)#ip address 192.10.10.254 255.255.255.0
+
+Router(config-if)#no shut
+
+---------------------EEE
+
+Router(config-if)#exit
+
+Router(config)#int f0/1
+
+Router(config-if)#ip address 10.0.0.1 255.0.0.0
+
+Router(config-if)#no shut
+
+
