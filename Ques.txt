@@ -1,0 +1,11 @@
+192.200.20.11/28 (A)
+20.42.11.51/30 (B) //Make last octet 0
+20.42.11.51/27 (C) [DHCP server for 6 PCs]
+20.42.11.51/30 (D)
+182.17.200.200/28(E) [HTTP server for google.com]
+130.130.130.130/16(F)
+
+a. Configure the network using OSPF. Consider Area 0 and process id 10.
+b. Configure the network using EIGRP.
+Write the necessary codes and the topology with proper labeling. Make your 
+topology cost efficient.
